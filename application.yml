@@ -1,10 +1,4 @@
-server:
-  port: ${PORT:8081}
-
-spring:
-  application:
-    name: ${NAME:config-server}
-  
+ 
 eureka:
   instance:
     instance-id: ${spring.application.name}-${SEQUENCE_NO}
