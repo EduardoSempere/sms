@@ -1,4 +1,5 @@
-  
+server:
+  port: 8789
 logging:
   level:
     ROOT: INFO
