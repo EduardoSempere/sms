@@ -1,0 +1,6 @@
+server:
+    port: 8902
+    
+ logging:
+  config: http://sms.sistemastg.com/sms-logback.xml
+    
