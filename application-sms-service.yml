@@ -1,19 +1,6 @@
- 
-eureka:
-  instance:
-    instance-id: ${spring.application.name}-${SEQUENCE_NO}
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_URL:http://localhost:8762/eureka/}
-
-management:
-  endpoint:
-    shutdown:
-      enabled:  true
-    info:
-      enabled: true
-  endpoints:
-    web:
-      exposure:
-        include:
-        - "*"
+server:
+    port: 8902
+    
+ logging:
+  config: http://sms.sistemastg.com/sms-logback.xml
+    
