@@ -2,7 +2,10 @@ server:
   port: 8100
 logging:
     config: http://sms.sistemastg.com/sms-logback.xml
-
+spring:
+  application:
+    name: ${NAME:sms-server}
+    
 globa:
   name: eduardo
   folder: uno
