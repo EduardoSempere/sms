@@ -8,18 +8,18 @@ eureka:
 
 management:
   context-path: /admin
-      security:
-        enabled: false
+    security:
+      enabled: false
   endpoint:
     shutdown:
       enabled:  true
     info:
       enabled: true
     refresh:
-          enabled: true
+      enabled: true
   endpoints:
     web:
       exposure:
         include:
-        - "*"
+         - "*"
  
