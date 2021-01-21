@@ -9,15 +9,3 @@ spring:
 global:
   name: eduardo
   folder: uno
-
-management:
-  endpoint:
-    shutdown:
-      enabled:  true
-    info:
-      enabled: true
-  endpoints:
-    web:
-      exposure:
-        include:
-        - "*"
