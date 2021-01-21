@@ -7,5 +7,5 @@ spring:
     name: ${NAME:sms-server}
     
 global:
-  name: eduardo
-  folder: uno
+  name: SEMPERE
+  folder: sem
