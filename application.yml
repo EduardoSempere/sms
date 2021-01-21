@@ -15,10 +15,11 @@ management:
       enabled:  true
     info:
       enabled: true
-     refresh:
+    refresh:
           enabled: true
   endpoints:
     web:
       exposure:
-        include: "*"
+        include:
+        - "*"
  
