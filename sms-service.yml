@@ -6,6 +6,6 @@ spring:
   application:
     name: ${NAME:sms-server}
     
-globa:
+global:
   name: eduardo
   folder: uno
