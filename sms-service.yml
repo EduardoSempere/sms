@@ -5,6 +5,8 @@ logging:
 spring:
   application:
     name: ${NAME:sms-server}
+  profiles:
+    active: dev
     
 global:
   name: SEMPERE
