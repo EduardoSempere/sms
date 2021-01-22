@@ -5,9 +5,8 @@ logging:
 spring:
   application:
     name: ${NAME:sms-server}
-  profiles:
-    active: dev
+   
     
 global:
-  name: Ana
-  folder: si
+  name: Sempere
+  folder: sem
