@@ -8,5 +8,5 @@ spring:
    
     
 global:
-  name: caballo
-  folder: erer
+  name: mio
+  folder: m,mm
