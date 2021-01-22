@@ -8,5 +8,5 @@ spring:
    
     
 global:
-  name: mio
-  folder: m,mm
+  name: rfderf
+  folder: eerere
