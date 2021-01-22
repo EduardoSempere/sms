@@ -9,5 +9,5 @@ spring:
     active: dev
     
 global:
-  name: SEMPERE
-  folder: sem
+  name: Ana
+  folder: si
