@@ -5,6 +5,8 @@ logging:
 spring:
   application:
     name: ${NAME:sms-server}
-   
+global:
+  name: 222s
+  folder: wwwdsdsds
     
 
