@@ -7,6 +7,4 @@ spring:
     name: ${NAME:sms-server}
    
     
-global:
-  name: wwwww
-  folder: wwwdsdsds
+
