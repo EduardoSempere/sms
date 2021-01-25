@@ -5,8 +5,12 @@ logging:
 spring:
   application:
     name: ${NAME:sms-server}
- 
+  profiles:
+    active: dev
+    
 global:
   name: sempere
   folder: sem
-   
+---
+spring:
+  profiles: dev
