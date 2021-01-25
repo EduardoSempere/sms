@@ -6,7 +6,7 @@ spring:
   application:
     name: ${NAME:sms-server}
   profiles:
-    active: dev
+    active: "dev"
     
 global:
   name: sempere
@@ -16,7 +16,7 @@ global:
 spring:
   config:
     activate:
-      on-profile: dev
+      on-profile: "dev"
 global:
   name: MAyra
   folder: aaaa
