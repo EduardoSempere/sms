@@ -5,6 +5,17 @@ logging:
 spring:
   application:
     name: ${NAME:sms-server}
+  profiles:
+    active: dev
+    
+---
+spring:
+  profiles: dev
+global:
+  name: sempere
+  folder: sem
+  
+---
 global:
   name: 222s
   folder: wwwdsdsds
