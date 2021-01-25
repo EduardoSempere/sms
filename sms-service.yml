@@ -11,6 +11,7 @@ spring:
 global:
   name: sempere
   folder: sem
+  
 ---
 spring:
   profiles: dev
